@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers');
+
+div{
+  box-sizing: border-box;
+}
+
+.hidden{
+  display: none;
+}
+
+#battleArea{
+  z-index: -1;
+}
+
+th{
+  color: white;
+}
+
