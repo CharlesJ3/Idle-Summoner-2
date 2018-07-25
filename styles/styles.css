@@ -1,18 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Bangers');
 
-div{
-  box-sizing: border-box;
+
+#menuSystemMainOptions{
+  top: 320px;
+  left: 2px;
+  position: absolute; 
 }
 
-.hidden{
-  display: none;
-}
-
-#battleArea{
-  z-index: -1;
-}
-
-th{
-  color: white;
+#menuSystemMainOptions th{
+  width: 120px;
 }
 

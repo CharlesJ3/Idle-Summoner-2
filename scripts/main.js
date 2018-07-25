@@ -21,7 +21,7 @@ let drawBorders = function() {
   context.fillStyle = 'rgba(0,0,0,0.01)';
 
   //Fill the rectangle based on canvas width/height
-  context.fillRect(0,0,canvas.width, canvas.height);
+  context.fillRect(0,0, canvas.width, canvas.height);
 
   //Scale the borders to be a little more visible
   context.scale(2,2);                           
@@ -29,8 +29,8 @@ let drawBorders = function() {
 
   //Borders for canvas
   let mainBorder = context.strokeRect(1, 1, 398, 298); 
-  let topBorder = context.strokeRect  (1, 1, 398, 298 / 1.885);
-  //let middleBorder = context.strokeRect(1, 1, 398, 298 / 1.25);
+  let topBorder = context.strokeRect  (1, 1, 398, 288 / 1.885);
+  let middleBorder = context.strokeRect(1, 1, 398, 298 / 1.65);
 
 }
 
@@ -42,3 +42,14 @@ drawBorders();
 * -------------------------------
 */
 
+const player = {
+  
+}
+
+const minion = {
+
+}
+
+const enemy = {
+
+}
